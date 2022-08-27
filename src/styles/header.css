@@ -2,14 +2,16 @@
 
 .header{
     display: flex;
+    position: fixed;
+    top:0;
+    width: 98%;
     padding: 20px 15px 10px;
-    height: 80px;
+    height: 90px;
     justify-content: space-between;
     background:linear-gradient(to left, white, #AA4465);
-    color:grey;
+    color:Black;
     box-shadow:0 0 10px grey;
 	z-index: 1;
-	position: relative;
 	overflow: hidden;
 }
  
@@ -20,7 +22,7 @@
     top: 0;
     left: 0;
     z-index: 999;
-    background:linear-gradient(to left, white, #FFC3C3);
+    background:linear-gradient(to left, white, #AA4465);
     -webkit-transition: height 0.3s;
     -moz-transition: height 0.3s;
     -ms-transition: height 0.3s;
@@ -67,24 +69,28 @@
       -webkit-clip-path: polygon(calc(0% + (33.3333333333px)) calc(0% + (33.3333333333px)), 100% 0, calc(100% - (33.3333333333px)) calc(100% - (33.3333333333px)), 0 100%);
               clip-path: polygon(calc(0% + (33.3333333333px)) calc(0% + (33.3333333333px)), 100% 0, calc(100% - (33.3333333333px)) calc(100% - (33.3333333333px)), 0 100%);
     }
-  }
+}
   
-  .data-1:after{
+.data-1:after{
       animation-delay: -5s;
       background-color: #93e1d8;
       clip-path: polygon(0 0, calc(100% - (33.3333333333px)) calc(0% + (33.3333333333px)), 100% 100%, calc(0% + (33.3333333333px)) calc(100% - (33.3333333333px)));
-  }
-  .data-1:before {
+}
+.data-1:before {
       background-color: #AA4465;
         clip-path: polygon(calc(0% + (33.3333333333px)) calc(0% + (33.3333333333px)), 100% 0, calc(100% - (33.3333333333px)) calc(100% - (33.3333333333px)), 0 100%);
-  }
+}
 
 .data-2{
     padding: 30px 0 15px;
-    font-size: 18px;
+    font-size: 20px;
+    font-weight: 100;
+    justify-content: space-between;
 }
 .header-cat{
-    padding:0 10px;
+    padding:0 30px;
+    padding-top: 10px;
+    border-left:2px solid white
 }
 .data-3{
     font-size: 20px;
