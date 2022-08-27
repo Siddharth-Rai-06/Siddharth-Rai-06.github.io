@@ -1,0 +1,27 @@
+.intro-wrapper-1{
+    width: 100%;
+    margin-top: 200px;
+    color: rgb(133,14,53);
+    display: flex;
+    justify-content: space-between;
+}
+.intro-head{
+    font-family: 'Ubuntu',serif;
+    font-size: 62px;
+    float:left;
+    padding-left:20px;
+}
+.intro-def{
+    text-align: right;
+    padding-top:60px;
+    padding-right:20px;
+    font-family: 'Ubuntu',serif;
+    font-size: 22px;
+    word-break: normal;
+}
+
+.intro-wrapper-2{
+    width: 98%;
+    display: flex;
+    justify-content: space-between;
+}

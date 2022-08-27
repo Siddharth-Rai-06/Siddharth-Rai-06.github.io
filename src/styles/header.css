@@ -8,7 +8,7 @@
     padding: 20px 15px 10px;
     height: 90px;
     justify-content: space-between;
-    background:linear-gradient(to left, white, #AA4465);
+    background:linear-gradient(to left, whitesmoke, #AA4465);
     color:Black;
     box-shadow:0 0 10px grey;
 	z-index: 1;
@@ -22,7 +22,7 @@
     top: 0;
     left: 0;
     z-index: 999;
-    background:linear-gradient(to left, white, #AA4465);
+    background:linear-gradient(to left, whitesmoke, #AA4465);
     -webkit-transition: height 0.3s;
     -moz-transition: height 0.3s;
     -ms-transition: height 0.3s;
@@ -83,24 +83,47 @@
 
 .data-2{
     padding: 30px 0 15px;
-    font-size: 20px;
-    font-weight: 100;
+    font-size: 24px;
+    font-weight: 200;
+    font-family: 'Dancing Script', serif;
     justify-content: space-between;
 }
+
 .header-cat{
     padding:0 30px;
     padding-top: 10px;
-    border-left:2px solid white
+    border-left:2px solid #850E35;
+    box-shadow: inset 0 0 0 0 #850E35;
+    transition: color .3s ease-in-out, box-shadow .5s ease-in-out;
 }
+.header-cat a{
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+}
+.header-cat:hover{
+    box-shadow: inset 150px 0 0 0 #850E35;
+    color: white;
+  }
 .data-3{
     font-size: 20px;
+    font-family: 'Dancing Script', serif;
+
 }
 .header-con-1{
     padding-right: 10px;
-    padding-top: 30px;
+    padding-top: 40px;
+    font-size: 22px;
+    color: #411530;
+    font-weight: 1000;
+    letter-spacing: 2px;
+
 }
 .header-con-2{
     padding-left: 10px;
-    padding-top: 20px;
+    padding-top: 30px;
     font-size: 40px;
+    color: #411530;
+    font-weight: 1000;
+
 }

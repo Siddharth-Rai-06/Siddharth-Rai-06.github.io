@@ -20,9 +20,9 @@ const Header = () => {
             <div className="header" id="myHeader">
                 <div className="data-1">Siddharth Rai</div>
                 <div className="data-2">
-                    <div className="header-cat" style={{borderLeft:"hidden"}}>About Me</div>
-                    <div className="header-cat">Education</div>
-                    <div className="header-cat">Projects</div>
+                    <div className="header-cat" style={{borderLeft:"hidden"}}><a href="#">About Me</a></div>
+                    <div className="header-cat"><a href="#">Education</a></div>
+                    <div className="header-cat"><a href="#">Projects</a></div>
                 </div>
                 <div className="data-3">
                     <div className="header-con-1">
