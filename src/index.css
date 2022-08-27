@@ -12,5 +12,6 @@ code {
     monospace;
 } */
 body{
-  background-color: rgba(193, 239, 255,0.2);
+  margin:0;
+  background:linear-gradient(to right, white, #F6F6F6);
 }
