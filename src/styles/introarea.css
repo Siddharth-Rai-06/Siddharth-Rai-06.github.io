@@ -25,3 +25,30 @@
     display: flex;
     justify-content: space-between;
 }
+.email-wrapper{
+    background-color: #850E35;
+    color:white;
+    padding:20px 50px;
+    letter-spacing: 3px;
+    border-radius: 10px;
+}
+
+/*-----*/
+.stack-name{ 
+    display:flex ;
+    flex-direction: row;
+    flex-wrap: wrap;
+    float: right;
+}
+.mern-logo{
+    border-radius: 50%;
+}
+.mern-stack{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 200px;
+    word-spacing: 5px;
+    width: 250px;
+    padding-left:10px;
+}
+
