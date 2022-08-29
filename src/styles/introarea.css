@@ -1,40 +1,51 @@
 .intro-wrapper-1{
-    width: 100%;
+    width: 80%;
+    margin:auto;
     margin-top: 200px;
     color: rgb(133,14,53);
     display: flex;
     justify-content: space-between;
 }
 .intro-head{
+    text-align: right;
+    width: 50%;
+    padding-top: 25px;
+    padding-right: 30px;
     font-family: 'Ubuntu',serif;
     font-size: 62px;
     float:left;
-    padding-left:20px;
+    padding-left:100px;
+}
+.intro-info{
+    text-align: left;
+}
+.intro-name{
+    line-height: 65px;
 }
 .intro-def{
-    text-align: right;
-    padding-top:60px;
-    padding-right:20px;
+    padding-top: 10px;
     font-family: 'Ubuntu',serif;
     font-size: 22px;
     word-break: normal;
 }
 
-.intro-wrapper-2{
+/* .intro-wrapper-2{
     width: 98%;
     display: flex;
     justify-content: space-between;
-}
+} */
 .email-wrapper{
     background-color: #850E35;
     color:white;
-    padding:20px 50px;
+    padding:20px 30px;
     letter-spacing: 3px;
     border-radius: 10px;
+    text-align: left;
+    width: 50%;
 }
 
 /*-----*/
-.stack-name{ 
+/* .stack-name{ 
     display:flex ;
     flex-direction: row;
     flex-wrap: wrap;
@@ -50,5 +61,21 @@
     word-spacing: 5px;
     width: 250px;
     padding-left:10px;
+} */
+.intro-image{
+    text-align: left;
+    width: 50%;
+    padding-right: 30px;
+}
+.hr{
+    border:none;
+    height: 20px;
+    width: 98%;
+    height: 50px;
+    margin-top: 0;
+    border-bottom: 1px solid #850E35;
+    box-shadow: 0 20px 20px -20px #850E35;
+    margin: -50px auto 10px; 
+
 }
 
