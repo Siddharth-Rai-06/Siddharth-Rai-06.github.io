@@ -1,0 +1,36 @@
+
+/*-----*/
+.stack-name{ 
+    display:flex ;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.mern-logo{
+    border-radius: 50%;
+}
+.mern-stack{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    word-spacing: 5px;
+    width: 250px;
+    padding-left:10px;
+}
+.mern-letter{
+    font-size: 30px;
+}
+.about-wrapper{
+    width: 80%;
+    margin:auto;
+    padding:100px 0;
+    color: rgb(133,14,53);
+    display: flex;
+    justify-content: space-between;
+}
+.about-img{
+width: 50%;
+padding-left: 100px;
+}
+.about-info{
+    width: 50%;
+    line-height: 0px;}
