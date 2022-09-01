@@ -33,4 +33,13 @@ padding-left: 100px;
 }
 .about-info{
     width: 50%;
-    line-height: 0px;}
+    line-height: 0px;
+}
+.about-para{
+    line-height: 1.5;
+    font-size: 20px;
+    font-weight: 100;
+}
+/* .about-para p{
+    width: 80%;
+} */
