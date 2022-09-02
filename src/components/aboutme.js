@@ -26,16 +26,16 @@ const Aboutme=()=>{
                     </div>
                 </div>
                 <div className="about-para">
-                <p>Siddharth Rai is a undergraduate student pursuing his B.Tech in Computer Science with specialization in Cyber Security and Digital Forensics.
+                <p>Siddharth Rai is a undergraduate student pursuing his B.Tech in <strong>Computer Science with specialization in Cyber Security and Digital Forensics. </strong>
                 He is a hard-working, confident and and diligent individual. He is skilled in React, MongoDB, NodeJS, HTML, CSS and JavaScript.
-                Apart form academics I love playing volleyball and watching animes, I can go on and on about them. I also love listening to music and it is my favourite thing to do while wokring on a side project.</p>
+                Apart form academics he love playing volleyball and watching animes and can go on and on about them. He also love listening to music and it is his favourite thing to do while wokring on a side project.</p>
 
                 </div>
             </div>
             
             </div>
 
-            <hr className="hr" />
+            {/* <hr className="hr" /> */}
 
         </>
     )

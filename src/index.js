@@ -4,6 +4,7 @@ import App from './App';
 import "../src/index.css";
 import "../src/styles/header.css"
 import "../src/styles/introarea.css"
+import "../src/styles/footer.css"
 import "../src/styles/aboutme.css"
 import reportWebVitals from './reportWebVitals';
 
