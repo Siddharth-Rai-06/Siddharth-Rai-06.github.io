@@ -29,7 +29,7 @@ const Header = () => {
                         +91-7080139778
                     </div>
                     <div className="header-con-2">
-                        <i class="fa-brands fa-whatsapp"></i>
+                        <i className="fa-brands fa-whatsapp"></i>
                     </div>
                 </div>
             </div>

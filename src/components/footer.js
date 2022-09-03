@@ -6,10 +6,15 @@ const Footer=()=>{
         <div>
             Reach Me Out Here :
         </div>
+        <div className="social-wrapper">
         <div className="socials">
-            <div><i class="fa-brands fa-twitter"></i></div>
-            <div><i class="fa-brands fa-linkedin-in"></i></div>
-            <div><i class="fa-brands fa-github"></i></div>
+            <div className="social-element"><a href="#"><i className="fa-brands fa-twitter"></i></a></div>
+            <div className="social-element"><a href="#"><i className="fa-brands fa-linkedin-in"></i></a></div>
+            <div className="social-element"><a href="#"><i className="fa-brands fa-github"></i></a></div>
+        </div>
+        </div>
+        <div className="copyright">
+        &copy;2022 - Siddharth Rai 
         </div>
         </div>
         </div>
